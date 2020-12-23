@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <!--Boostrap-->
+    <%- include('partials/head'); %> 
+  </head>
+  <body>
+
+    <%- include('partials/navigation'); %> 
+    <div class="container">
+    <header class="row">
+      <div class="col-lg-12 text-center">
+        <img src="/img/logo2.jpg" class="animate__animated animate__fadeInUp" alt="logo">
+      </div>
+    </header>
+  </div>
+  <!--Section one-->
+  <div class="container-fluid " id="about">
+    <div class="row bg-dark text-white p-5 text-center">
+      <div class="col-sm-6">
+        <i class="fab fa-youtube fa-10x animate__animated animate__fadeInLeft"></i>
+      </div>
+      <div class="col-sm-6 animate__animated animate__fadeInRight">
+        <h3>The most Suscribed Youtuber</h3>
+        <br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore labore tempora at itaque cupiditate quod voluptates reprehenderit iste quia praesentium illo, ab rerum pariatur quis nostrum, maxime saepe animi voluptatibus.</p>
+      </div>
+
+    </div>
+    <div class=" bg-dark ">
+      <div class="row row-cols-auto bg-dark text-white p-5 text-center">
+        <div class="col-lg-3 col-sm-6 p-2 ">
+          <i class="fab fa-instagram fa-10x"></i>
+        </div>
+        <div class="col-lg-3 col-sm-6 p-2 ">
+          <i class="fab fa-twitch fa-10x"></i>
+        </div>
+        <div class="col-lg-3 col-sm-6 p-2 " >
+          <i class="fab fa-twitter-square fa-10x"></i>
+        </div>
+        <div class="col-lg-3 col-sm-6 p-2 ">
+          <i class="fab fa-facebook-square fa-10x"></i>
+        </div>
+
+    </div>
+  </div>
+    <%- include('partials/footer'); %>
+  </body>
+</html>
